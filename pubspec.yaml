@@ -1,0 +1,31 @@
+name: mi_card
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/74428421_2349431498655884.jpg
+  fonts:
+    - family: Galada-Regular
+      fonts:
+        - asset: fonts/Galada-Regular.ttf
+
+    - family: Inconsolata
+      fonts:
+        - asset: fonts/Inconsolata-VariableFont_wdth,wght.ttf
